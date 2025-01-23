@@ -10,7 +10,7 @@ import UserState from './components/components/FunctionalComponents/Hooks/useSta
 import UseEffect from './components/components/FunctionalComponents/Hooks/UseEffect'
 import UseEffectAPI from './components/components/FunctionalComponents/Hooks/UseEffectAPI'
 import UseEffectAPIimage from './components/components/FunctionalComponents/Hooks/UseEffectAPIimage'
- function App() {
+ function App(){
   return (
     <>
     <BrowserRouter>
