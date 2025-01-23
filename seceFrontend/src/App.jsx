@@ -10,6 +10,10 @@ import UserState from './components/components/FunctionalComponents/Hooks/useSta
 import UseEffect from './components/components/FunctionalComponents/Hooks/UseEffect'
 import UseEffectAPI from './components/components/FunctionalComponents/Hooks/UseEffectAPI'
 import UseEffectAPIimage from './components/components/FunctionalComponents/Hooks/UseEffectAPIimage'
+import UseRef from './components/components/FunctionalComponents/Hooks/UseRef'
+import UseMemo from './components/components/FunctionalComponents/Hooks/UseMemo'
+import UseCallback from './components/components/FunctionalComponents/Hooks/UseCallback'
+import UseReducer from './components/components/FunctionalComponents/Hooks/UseReducer'
  function App() {
   return (
     <>
