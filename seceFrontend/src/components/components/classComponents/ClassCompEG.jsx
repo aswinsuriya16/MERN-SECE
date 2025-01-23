@@ -9,5 +9,4 @@ class ClassCompEG extends React.Component{
         )
     }
 }
-
 export default ClassCompEG;
