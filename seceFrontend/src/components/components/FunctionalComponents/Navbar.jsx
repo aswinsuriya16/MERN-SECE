@@ -31,10 +31,15 @@ const Navbar = () => {
                 </ol>)}
             </div>
             <li><Link to="/Memo" class="link">React.memo</Link></li>
+            <div>
+                <span onMouseEnter={toggleDroupdown} >Memoization</span>
+               {dropdown && (<ol onMouseLeave={toggleDroupdown}>
+                    <li><Link to="/Memo" class="link">React.memo</Link></li>
+                </ol>)}
+            </div>
             <li><Link class="link" to="/Signup">Signup/login</Link></li>
         </ul>
         </nav>
         </header>
     )
 }
-export default Navbar; 
