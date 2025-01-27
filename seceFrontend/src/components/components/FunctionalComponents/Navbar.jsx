@@ -28,13 +28,16 @@ const Navbar = () => {
                     <li><Link to="/UseCallback" class="link">UseCallback</Link></li>
                     <li><Link to="/ReactLifecycleMethods" class="link">ReactLifecycleMethods</Link></li>
                     <li><Link to="/Student" class="link">Student</Link></li>
+                    <li><Link to="/UseLocalStorage" class="link">UseLocalStorage</Link></li>
+                    <li><Link class="link" to="/Hoc">Hoc</Link></li>
                 </ol>)}
             </div>
-            <li><Link to="/Memo" class="link">React.memo</Link></li>
+
             <div>
                 <span onMouseEnter={toggleDroupdown} >Memoization</span>
                {dropdown && (<ol onMouseLeave={toggleDroupdown}>
                     <li><Link to="/Memo" class="link">React.memo</Link></li>
+                    <li><Link to="/LazyLoadingWithSuspense" class="link">LazyLoadingWithSuspense</Link></li>
                 </ol>)}
             </div>
             <li><Link class="link" to="/Signup">Signup/login</Link></li>

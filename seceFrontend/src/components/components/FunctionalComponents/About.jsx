@@ -1,6 +1,7 @@
 import {useState} from "react"
 const About = () => {
     var[text,setText] = useState("Aswin Suriya")
+    var[text,setText] = useState("")
     function handleText(e){
         setText(e.target.value)
     }
@@ -14,4 +15,3 @@ const About = () => {
         </div>
     )
 }
-export default About;
